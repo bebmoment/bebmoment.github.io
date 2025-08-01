@@ -2,39 +2,55 @@
 <html>
     <head>
         <title>About Kevin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" content="heehoo">
+        <link rel="stylesheet" href="kevin.css">
     </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="kevin.css">
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Kevin</h1>
+            <!-- <hr> -->
+            <h1 class="band-name band-name-large">Kevin</h1>
             <button type="button">Get the latest kevin</button>
             <br>
             <br>
             <button type="button">&#9658;</button>
         </header>
-        <section>
-            <h2>ABOUT</h2>
+        <section class="content-section container">
+            <h2 class="section-header">ABOUT</h2>
+            <img src="kevin.jpg"; alt="funny cat image"; class="about-band-image">
+            <img src="kevin.png"; alt="kevin logo" class="about-band-image">
             <p>Kevin is some silly band made up by Ben Wang for the purpose of creating a website for his computer science class. Its albums do go hard tho.</p>
-            <img src="kevin.png"; alt="kevin";>
+            
             <p>The idea came to him when one of his friends pointed out that English teachers write instructions pertaining to Kevin hidden in white font to trick AI generators.</p>
             <p>He decided to do exactly their bidding.</p>
         </section>
-        <footer>
-            <h3>Kevin</h3>
-            <ul>
-                <li><img src="Apple_Music_icon.svg.png" alt="Apple Music" width="20" height="20"> </li>
-                <li><img src="Spotify_icon.svg.png" alt="Spotify" width="20" height="20"></li>
-                <li><img src="Youtube_logo.png" alt="Youtube" width="20" height="20"></li>
-            </ul>
+        <footer class="main-footer">
+            <h3 class="band-name">Kevin</h3>
+            <div class="container main-footer-container">
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://music.apple.com">
+                            <img src="Apple_Music_icon.svg.png" alt="Apple Music">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://spotify.com">
+                            <img src="Spotify_icon.svg.png" alt="Spotify">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com">
+                            <img src="Youtube_logo.png" alt="Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
