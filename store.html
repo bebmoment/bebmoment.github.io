@@ -1,145 +1,154 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Kevin Store</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="kevin.css" />
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="store.html">STORE</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                </ul>
-            </nav>
-            <!-- <hr> -->
-            <h1>Kevin</h1>
-            <button type="button">Get the latest kevin</button>
-            <br>
-            <br>
-            <button type="button">&#9658;</button>
-        </header>
-        <section>
-            <h2>MUSIC</h2>
-            <div>
-                <div>
-                    <strong>Album 1</strong>
-                </div>
-                <img src="kevinAlbum1.png" alt="kevin first album the one with kevin and some fluorescent tubes">
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Album 2</strong>
-                </div>
-                <img src="kevinAlbum2.png" alt="kevin second album the one with a fluroescent tube on under a power line" width="335" height="335">
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Album 3</strong>
-                </div>
-                <img src="kevinAlbum3.png" alt="kevin third album the one with many fluorescent tubes under a power line" width="335" height="335">
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Album 4</strong>
-                </div>
-                <img src="kevinAlbum4.png" alt="kevin fourth album the one with warm fluorescent tubes under a power line" width="335" height="335">
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>SHIRT</strong>
-                </div>
-                <img style="height:10%; width:10%;" src="https://i3.cloudfable.net/styles/735x735/600.330/Black/students-xy%5E2x%5E2y%5E2-again-algebra-math-teacher-t-shirt-20230607083221-g4ygr25o.jpg" alt="you made the cat sad with your math" >
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>CUP</strong>
-                </div>
-                <img style="height:10%; width:10%;" src="https://i.etsystatic.com/27725832/r/il/3d6df0/3422978044/il_fullxfull.3422978044_qo0y.jpg" alt="cup with kevin">
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>CART</h2>
-            <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
-            </div>
-            <div>
-                <img style="height:100px; width:100px;" src="https://i3.cloudfable.net/styles/735x735/600.330/Black/students-xy%5E2x%5E2y%5E2-again-algebra-math-teacher-t-shirt-20230607083221-g4ygr25o.jpg" alt="you made the cat sad with your math">
-                <span>SHIRT</span>
-                &lt;&gt;
-                <span>$12.99</span>
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
-            </div>
-            <div>
-                <img src="kevinAlbum4.png" alt="kevin fourth album" width="100" height="100">
-                <span>Album 4</span>
-                &lt;&gt;
-                <span>$12.99</span>
-                <input type="number" value="2">
-                <button role="button">REMOVE</button>
-            </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>$35.97</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
-            </div>
-        </section>
-        <footer>
-            <h3>Kevin</h3>
+
+<head>
+    <title>Kevin Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kevin.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
-                <li>
-                    <a href="https://music.apple.com">
-                        <img src="Apple_Music_icon.svg.png" alt="Apple Music" width="20" height="20">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://spotify.com">
-                        <img src="Spotify_icon.svg.png" alt="Spotify" width="20" height="20">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com">
-                        <img src="Youtube_logo.png" alt="Youtube" width="20" height="20">
-                    </a>
-                </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
             </ul>
-        </footer>
-    </body>
+        </nav>
+        <!-- <hr> -->
+        <h1 class="band-name band-name-large">Kevin</h1>
+        <div class="container">
+            <button class="btn btn-header" type="button">Get the latest kevin</button>
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-header btn-play" type="button">&#9658;</button>
+    </header>
+    <section class="content-section container">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items"> 
+            <div class="shop-item">
+
+                <span class="shop-item-title">Album 1</span>
+
+                <img class="shop-item-image" src="kevinAlbum1.png" alt="kevin first album the one with kevin and some fluorescent tubes">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-image" src="kevinAlbum2.png" alt="kevin second album the one with a fluroescent tube on under a power line">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-image" src="kevinAlbum3.png" alt="kevin third album the one with many fluorescent tubes under a power line">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-image" src="kevinAlbum4.png" alt="kevin fourth album the one with warm fluorescent tubes under a power line">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>MERCH</h2>
+        <div>
+            <div>
+                <strong>SHIRT</strong>
+            </div>
+            <img style="height:10%; width:10%;"
+                src="https://i3.cloudfable.net/styles/735x735/600.330/Black/students-xy%5E2x%5E2y%5E2-again-algebra-math-teacher-t-shirt-20230607083221-g4ygr25o.jpg"
+                alt="you made the cat sad with your math">
+            <div>
+                <span>$12.99</span>
+                <button role="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <strong>CUP</strong>
+            </div>
+            <img style="height:10%; width:10%;"
+                src="https://i.etsystatic.com/27725832/r/il/3d6df0/3422978044/il_fullxfull.3422978044_qo0y.jpg"
+                alt="cup with kevin">
+            <div>
+                <span>$12.99</span>
+                <button role="button">ADD TO CART</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>CART</h2>
+        <div>
+            <strong>ITEM</strong>
+            &lt;&gt;
+            <strong>PRICE</strong>
+            &lt;&gt;
+            <strong>QUANTITY</strong>
+        </div>
+        <div>
+            <img style="height:100px; width:100px;"
+                src="https://i3.cloudfable.net/styles/735x735/600.330/Black/students-xy%5E2x%5E2y%5E2-again-algebra-math-teacher-t-shirt-20230607083221-g4ygr25o.jpg"
+                alt="you made the cat sad with your math">
+            <span>SHIRT</span>
+            &lt;&gt;
+            <span>$12.99</span>
+            <input type="number" value="1">
+            <button role="button">REMOVE</button>
+        </div>
+        <div>
+            <img src="kevinAlbum4.png" alt="kevin fourth album" width="100" height="100">
+            <span>Album 4</span>
+            &lt;&gt;
+            <span>$12.99</span>
+            <input type="number" value="2">
+            <button role="button">REMOVE</button>
+        </div>
+        <hr>
+        <div>
+            <strong>Total</strong>
+            <span>$35.97</span>
+        </div>
+        <div>
+            <button role="button">PURCHASE</button>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <h3 class="band-name">Kevin</h3>
+        <div class="container main-footer-container">
+        <ul class="nav footer-nav">
+            <li>
+                <a href="https://music.apple.com">
+                    <img src="Apple_Music_icon.svg.png" alt="Apple Music">
+                </a>
+            </li>
+            <li>
+                <a href="https://spotify.com">
+                    <img src="Spotify_icon.svg.png" alt="Spotify">
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com">
+                    <img src="Youtube_logo.png" alt="Youtube">
+                </a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+</body>
+
 </html>
