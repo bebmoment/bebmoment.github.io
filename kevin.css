@@ -189,6 +189,10 @@ html, body {
     font-weight: bold;
 }
 
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
 .tour-btn:hover {
     background-color: #2D9CDB;
 }
