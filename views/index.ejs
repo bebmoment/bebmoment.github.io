@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>wgeather</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Weather App</h1>
+        <form class="row" action="/" method="post">
+            <input type="text" class="get city" name="city"></input>
+            <button type="submit" class="get" id="click">Get</button>
+        </form>
+        <div id="result">
+            <h1 class="cityname"></h1>
+            <h3 class="resultmsg"><%- result %></h3>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            let cityname = document.getElementsByClassName("cityname")[0];
+            let resultmsg = document.getElementsByClassName("resultmsg")[0];
+            document.getElementById("result").style.visibility = "visible";
+            if (document.getElementsByClassName("city").value === "Toronto") {
+                cityname.innerText = "Toronto";
+                resultmsg.innerText = "<h1>Toronto</h1> <h3>Temperature: 1°</h3>";
+            } else {
+                resultmsg.innerText = "Sorry, I don't know what that city is";
+            }
+        }
+    </script>
+</body>
+
+</html>  </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+{
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@std/csv": "jsr:@std/csv@^1.0.6"
+  }
+}
